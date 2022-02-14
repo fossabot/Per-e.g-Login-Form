@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #a1cbe2;
+	height: 100vh;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+	overflow: hidden;
+}
+
+.form-box {
+	width: 100%;
+	max-width: max-content;
+	background-color: #fff;
+	border-radius: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+	font-size: 4.5rem;
+	color: #567cae;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.img-box {
+	width: 50%;
+	height: 50%;
+	float: right;
+	height: 300px;
+	position: relative;
+}
+
+.img-box img {
+	width: 150%;
+	height: 150%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.form-group {
+	width: 50%;
+	height: 300px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+
+.form-group label {
+	font-size: 1.2rem;
+	font-weight: bolder;
+	color: #567cae;
+}
+
+.form-group input {
+	font-size: 1rem;
+	border-radius: 45px;
+	border: 1px solid #567cae;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-group .btn {
+	background-color: #a1cbe2;
+	border-radius: 45px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn:hover {
+	background-color: #f9c543;
+	box-shadow: 0px 15px 20px rgba(255, 190, 33, 0.2);
+	transform: translateY(-5px);
+}
+
+a {
+	font-size: 14px;
+	color: #567cae;
+	text-decoration: none;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+a:hover {
+	color: #f9c543;
+}
+
+@media only screen and (max-width: 700px) {
+	.img-box img {
+		width: 0%;
+		height: 0%;
+	}
+	.img-box,
+	.form-group {
+		margin: auto;
+		transform: translateY(-50%);
+		width: 100%;
+		float: none;
+		position: relative;
+		overflow: hidden;
+	}
+}
