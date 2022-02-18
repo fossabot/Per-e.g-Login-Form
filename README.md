@@ -1,4 +1,6 @@
 # Simple Login Form
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPanahifarah%2FPer-e.g-Login-Form.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPanahifarah%2FPer-e.g-Login-Form?ref=badge_shield)
+
 
 Simple Login form example
 
@@ -11,3 +13,6 @@ Simple Login form example
 > This Project Under GPLv3.0 License
 
 > The Vector illustrations credited to [DrawKit](https://Drawkit.com)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPanahifarah%2FPer-e.g-Login-Form.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPanahifarah%2FPer-e.g-Login-Form?ref=badge_large)
